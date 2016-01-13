@@ -3,7 +3,7 @@ class Money
   protected :amount
 
   def ==(other)
-    amount == other.amount
+    (amount == other.amount) and (self.class == other.class)
   end
 
 end
