@@ -13,4 +13,8 @@ class TestMoney < Minitest::Test
     assert_equal "CHF", Money.franc(1).currency
   end
 
+  def test_different_class_equality
+    assert_equal Money.new(5, "CHF"), Money.new(5, "CHF")
+  end
+
 end
