@@ -3,3 +3,7 @@
 * [ ] Make "amount" private
 * [x] Dollar side-effects?
 * [ ] Money rounding?
+* [x] equals()   *( #== in Ruby )*
+* [ ] hashCode() *( #hash in Ruby )*
+* [ ] Equal null *( nil in Ruby )*
+* [ ] Equal object
