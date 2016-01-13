@@ -5,7 +5,7 @@ require 'minitest/autorun'
 class TestMoney < Minitest::Test
 
   def test_equality
-    refute_equal Franc.new(5), Dollar.new(5)
+    refute_equal Money.franc(5), Money.dollar(5)
   end
 
 end

@@ -8,7 +8,7 @@
 * [ ] Equal null *( nil in Ruby )*
 * [ ] Equal object
 * [x] 5 CHF * 2 = 10 CHF
-* [ ] Dollar/Franc duplication
+* [ ] **Dollar/Franc duplication**
 * [x] Common equals *( #== in Ruby )*
 * [ ] Common times
 * [x] Compare Francs with Dollars
