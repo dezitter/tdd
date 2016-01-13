@@ -1,5 +1,6 @@
 class Dollar
   attr_reader :amount
+  protected :amount
 
   def initialize(amount)
     @amount = amount
