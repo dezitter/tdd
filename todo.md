@@ -12,4 +12,5 @@
 * [x] Common equals *( #== in Ruby )*
 * [ ] Common times
 * [x] Compare Francs with Dollars
-* [ ] Currency?
+* [x] Currency?
+* [ ] Delete TestFranc#test_multiplication?
