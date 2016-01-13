@@ -18,11 +18,11 @@ class Money
   class << self
 
     def dollar(amount)
-      Dollar.new(amount, "USD")
+      Money.new(amount, "USD")
     end
 
     def franc(amount)
-      Franc.new(amount, "CHF")
+      Money.new(amount, "CHF")
     end
 
   end
