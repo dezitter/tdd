@@ -9,5 +9,5 @@
 * [ ] Equal object
 * [x] 5 CHF * 2 = 10 CHF
 * [ ] Dollar/Franc duplication
-* [ ] Common equals *( #== in Ruby )*
+* [x] Common equals *( #== in Ruby )*
 * [ ] Common times

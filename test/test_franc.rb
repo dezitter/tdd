@@ -9,4 +9,9 @@ class TestFranc < Minitest::Test
     assert_equal Franc.new(15), five.times(3)
   end
 
+  def test_equality
+    assert_equal Franc.new(5), Franc.new(5)
+    refute_equal Franc.new(5), Franc.new(6)
+  end
+
 end
