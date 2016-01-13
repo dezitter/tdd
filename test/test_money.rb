@@ -1,3 +1,4 @@
+require 'bank'
 require 'money'
 require 'minitest/autorun'
 
@@ -29,6 +30,14 @@ class TestMoney < Minitest::Test
 
   def test_different_class_equality
     assert_equal Money.new(5, "CHF"), Money.new(5, "CHF")
+  end
+
+  def test_simple_addition
+    five = Money.dollar(5)
+    sum = five.plus(five)
+    bank = Bank.new
+    reduced = bank.reduce(sum, "USD")
+    assert_equal Money.dollar(10), reduced
   end
 
 end
