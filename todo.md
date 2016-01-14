@@ -4,5 +4,5 @@
 * [x] Bank.reduce(Money)
 * [x] Reduce Money with conversion
 * [x] Reduce(Bank, String)
-* [ ] Sum.plus
-* [ ] Expression.times *(no interfaces in Ruby)*
+* [x] Sum.plus
+* [x] Expression.times *(no interfaces in Ruby)*
